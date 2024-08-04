@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    #background {
+      width: 100vw;
+      height: 100vh;
+      background-repeat: no-repeat;
+      background-image: url(back.jpg);
+      background-position: center;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    #inter {
+      width: 350px;
+      height: 350px;
+      background-color: rgba(49, 99, 141, 0.759);
+      border-radius: 10px;
+      border-width: 3px;
+      border-color: rgba(79, 82, 119, 0.619);
+      border-style: solid;
+      transition: border-radius 1s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+    }
+    #inter:hover {
+      border-radius: 30px;
+    }
+    #enter-button {
+      width: 200px;
+      height: 200px;
+      border-radius: 30px;
+      background-color: rgb(120, 215, 201);
+      box-shadow: 10px 10px rgba(44, 19, 25, 1);
+      font-family: fantasy;
+      font-size: 25px;
+      cursor: pointer;
+      transition: 0.15s;
+    }
+    #enter-button:active {
+      box-shadow: 0px 0px rgb(44, 19, 25);
+      margin-top: 5px;
+      margin-left: 5px;
+    }
+    p {
+      margin-top: 20px; /* Adjust spacing as needed */
+    }
+    ul li {
+      text-decoration: none;
+      list-style-type: none;
+      display: inline-block;
+     margin-right: 30px;
+      width: 100px;
+      height: 30px;
+      background-color: rgb(50, 125, 146);
+      padding: 20px 10px;
+      align-items: center;
+      font-size: 20px;
+      border-radius: 30px;
+      font-weight: bolder;
+      
+    }
+    ul {
+      text-decoration: none;
+      text-transform: none;
+      list-style-type: none;
+      margin-top: 50px;
+
+    }
+    a{
+      text-decoration: none;
+      text-align: center;
+      font-weight: bolder;
+      color: blanchedalmond;
+
+    }
+     a :hover{
+      
+      transition: 1s;
+      background-color: rgb(7, 3, 10);
+      border-radius: 50px;
+    }
+  </style>
+</head>
+<body>
+  <div id="background">
+    <div id="inter">
+      <button type="button" id="enter-button"><a href="entar.html">Enter to Explore</a></button>
+    </div>
+    <div id="menu">
+      <ul>
+        <a href="earth.html"><li>Earth</li></a>
+        <a href="birds.html"><li>Birds</li></a>
+        <a href="hills.html"><li>Hills</li></a>
+        <a href="fountains.html"><li>Fountains</li></a>
+        <a href="corals.html"><li>corals</li></a>
+          
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
